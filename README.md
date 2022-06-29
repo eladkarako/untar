@@ -1,8 +1,8 @@
 <h2>
 
-[Windows] binaries and batch files to help you easily extract `.tar`, `.tar.br`, `.tar.bz2`, `.tar.gz`, `.tar.lz4`, `.tar.lzma`, `.tar.xz` (lzma2), `.tar.zst` - it is ready to use, dependencies included.
+[Windows] easily extract `.tar` (tarball), `.tar.br` (brotli), `.tar.bz2` (bzip2), `.tar.gz` (gzip), `.tar.lz4`, `.tar.lzma`, `.tar.xz` (LZMA2), `.tar.lzo` (LZOP), `.tar.zst` (Zstandard), `.tar.z` (Compress/LZWS)  - portable, ready to use, everything is included. 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 » https://github.com/eladkarako/untar/archive/refs/heads/master.zip
 
-</h3>
+</h2>
 
 <hr/>
 
