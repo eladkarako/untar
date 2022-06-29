@@ -1,0 +1,18 @@
+Overview: lzws cli tool
+
+Usage: lzws [-dwb:rmuqhv] [< stdin] [> stdout]
+
+Options:
+  --decompress (-d) - enable decompress mode (default mode is compress)
+  --without-magic-header (-w) - disable magic header (enabled by default)
+  --max-code-bit-length (-b) - set max code bit length (9-16) (default value is 16) [compressor only]
+  --raw (-r) - disable block mode (enabled by default) [compressor only]
+  --msb (-m) - enable most significant bit (default mode is least significant bit)
+  --unaligned-bit-groups (-u) - enable unaligned bit groups (disabled by default)
+  --quiet (-q) - disable error messages (enabled by default)
+  --help (-h) - print help
+  --version (v) - print version
+
+Compatibility:
+  Default options are fully compatible with UNIX compress.
+  Compressor only options (-b and -r) can be changed without loosing compatibility.

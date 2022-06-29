@@ -1,0 +1,22 @@
+
+LZMA 22.00 (x86) : Igor Pavlov : Public domain : 2022-06-15
+
+Usage:  lzma <command> [inputFile] [outputFile] [<switches>...]
+
+<command>
+  e : Encode file
+  d : Decode file
+  b : Benchmark
+<switches>
+  -a{N}  : set compression mode : [0, 1] : default = 1 (max)
+  -d{N}  : set dictionary size : [12, 30] : default = 24 (16 MiB)
+  -fb{N} : set number of fast bytes : [5, 273] : default = 128
+  -mc{N} : set number of cycles for match finder
+  -lc{N} : set number of literal context bits : [0, 8] : default = 3
+  -lp{N} : set number of literal pos bits : [0, 4] : default = 0
+  -pb{N} : set number of pos bits : [0, 4] : default = 2
+  -mf{M} : set match finder: [hc4, bt2, bt3, bt4] : default = bt4
+  -mt{N} : set number of CPU threads
+  -eos   : write end of stream marker
+  -si    : read data from stdin
+  -so    : write data to stdout

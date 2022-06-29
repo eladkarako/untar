@@ -1,0 +1,5 @@
+/bin/resources/*.*
+
+!/bin/resources/.placeholder
+
+!/bin/resources/README.md
